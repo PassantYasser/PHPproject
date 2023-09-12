@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease;
+
+}
+body.darkmode {
+    background-color: black;
+    color: white;
+}
+body.lightmode{
+    background-color: white;
+    color: black;
+}
+
+
+.card{
+    background-color:rgba(0, 183, 255, 0.5) ;
+    color:white;
+    border-radius: 50px;
+    padding: 20px;
+}
+.card-body{
+    background-color: black;
+    color: white;
+}
+.form-group{
+    margin:15px 0px;
+    color: white;
+}
+.form-group label{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+button{
+    font-weight: bold;
+}
+.btn1 {
+    width: 565px; /* Adjust the width value as per your desired length  */
+    height:50px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+
+}
+.btn1{
+    margin-bottom: 10px;
+}
+
+/*************************************************************/
+
+
+
+body .lightmode {
+    background-color: black;
+    color: white;
+}
